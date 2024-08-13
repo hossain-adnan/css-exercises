@@ -3,11 +3,16 @@
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
-#2 {
+#two {
     color: blue;
     font-size: 36px;
 }
 
-#3{
+.adjust-font-size{
     font-size: 24px;
+}
+
+#four{
+    background-color: hsl(120, 73%, 75%);
+    font-weight: bold;
 }
