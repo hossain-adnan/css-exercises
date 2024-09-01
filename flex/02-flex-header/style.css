@@ -2,10 +2,10 @@
   font-family: monospace;
   background: papayawhip;
 
-  /* display: flex;
+  display: flex;
   padding: 10px;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .logo {
@@ -20,10 +20,10 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
 
-  /* display: flex;
+  display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px */
+  gap: 8px
 ;
 }
 
