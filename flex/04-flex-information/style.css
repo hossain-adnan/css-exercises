@@ -9,6 +9,8 @@ img {
   height: 100px;
 
   max-width: 200px;
+  /* display: flex;
+  align-self: center; 🚫 */
 }
 
 .title {
@@ -26,12 +28,12 @@ img {
   justify-content: space-between;
 }
 
-.card {
-  /* display: flex;
+ /*.card {
+  display: flex;
   justify-content: center; 
   margin: 0; 
-  margin: auto; */
-}
+  margin: auto;
+} */
 
 .text {
   display: flex;
