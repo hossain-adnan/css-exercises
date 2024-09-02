@@ -14,11 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  align-content: center;
+  justify-content: space-between;
   padding: 8px;
-  gap: 8px;
 }
 
 .profile-image {
@@ -28,8 +25,6 @@ body {
   width: 48px;
   height: 48px;
 
- /* display: flex;
- justify-content: right; */
 }
 
 .logo {
@@ -38,8 +33,6 @@ body {
   font-weight: 900;
   font-style: italic;
 
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 button {
@@ -60,6 +53,13 @@ ul {
   list-style-type: none;
 
   display: flex;
-  gap: 10px;
-  /* justify-content: flex-start; */
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
