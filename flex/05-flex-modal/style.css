@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  padding: 17px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0;
 }
 
 .icontainer {
@@ -75,6 +81,7 @@ button.cancel {
 .header {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin-left: 42px;
   padding: 0px 20px 10px 0px;
   font-weight: bold;
@@ -93,4 +100,14 @@ button.cancel {
   margin-left: 52px;
   margin-bottom: 15px;
   gap: 5px;
+=======
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 900;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 20px;
+>>>>>>> re-original
 }
