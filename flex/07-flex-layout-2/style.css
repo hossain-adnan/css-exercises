@@ -5,7 +5,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  /* justify-content:stretch */
 }
 
 .header {
@@ -19,6 +18,7 @@ body {
   align-items: center;
   padding-left: 16px;
 
+  /* not in the solution */
   flex: 1 1 0;
   max-height: 72px;
   min-height: 72px;
@@ -29,12 +29,11 @@ body {
   background: #eee;
   color: darkmagenta;
 
-  /* justify-self: flex-end; */
-
   display: flex;
   justify-content: center;
   align-items: center;
 
+  /* not in the solution */
   flex: 1 1 0;
   max-height: 72px;
   min-height: 52px;
@@ -45,7 +44,9 @@ body {
   background: royalblue;
   box-sizing: border-box;
 
-  min-width: 300px;
+  min-width: 300px;   /* not in the solution */
+
+  /* flex-shrink: 0; */
   padding: 16px;
 }
 
@@ -54,29 +55,29 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
-  /* height: 200px; */
-  width: 200px;
-  padding: 48px;
+  width: 200px;   /* Sol: 300px */
+  padding: 48px; /* Sol: 16px */
 
-  margin: 5px;
-  /* flex-wrap: wrap; */
+  margin: 5px; /* not in the solution */
 }
 
 /* new */
-.container { 
+.body { 
   display: flex;
-  align-items: stretch;
-
   flex: 1 1 0;
+
+  /* not in the solution */
+  align-items: stretch;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  /* not in the solution */
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
   padding: 10px;
   gap: 10px;
 } 
@@ -84,13 +85,12 @@ ul {
 a {
   text-decoration: none;
   color: white;
-  /* font-weight: 500; */
   font-size: 24px;
 }
 
-.card-container {
-  padding: 40px;
+.container {
+  padding: 40px; /* Sol: 48px */
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
+  /* gap: 32px; */
 }
